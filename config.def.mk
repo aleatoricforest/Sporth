@@ -156,7 +156,7 @@ zitarev
 # NO_LIBDL=1
 
 # Build jack driver
-# BUILD_JACK=1
+BUILD_JACK=1
 
 # polysporth support
 BUILD_POLYSPORTH=1
@@ -166,3 +166,5 @@ LIVE_CODING=1
 
 # GDB Debugging Symbols
 CFLAGS += -g 
+
+CFLAGS += "-DNO_LIBSNDFILE"
